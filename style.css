@@ -1,0 +1,148 @@
+body { 
+    background-color: #ccb0a2; 
+}
+
+/*promptpage*/ 
+
+#promptpage { 
+    background-image: url(image/prompt.png); 
+    background-position: top right; 
+    background-size: cover; 
+    background-repeat: no-repeat; 
+}
+.prompt { 
+    background-color:rgba(183, 123, 87, 0.8);
+    padding: 2em; 
+    width: 60%; 
+    position: absolute; 
+    left: 9em; 
+    top: 9em; 
+    font-family: 'Libre Baskerville', serif;
+    font-size: 1.2em; 
+    color: white; 
+}
+
+
+/*page1*/ 
+#page1 { 
+    background-image: url(image/page1a.png);
+    background-position: top right; 
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    display: flex; 
+}
+
+#page2 { 
+    background-image: url(image/page2a.png); 
+    background-position: top right; 
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    display: flex; 
+
+}
+
+#suffolk, #worcester, #lancaster, #middlesex { 
+    width: 50%; 
+    position: absolute; 
+}
+
+
+#suffolk { 
+    top: 10%; 
+    left: 10%; 
+}
+
+
+#worcester { 
+    bottom:-5%; 
+    left: 63%;    
+}
+
+#lancaster { 
+    bottom:1%;
+    left: 5%; 
+}
+
+#middlesex {
+    right: -10%;
+}
+
+.land-icon img { 
+    max-height: 200px; 
+
+}
+
+
+
+.infobox { 
+    font-family: 'Libre Baskerville', serif;
+    display:flex; 
+    overflow: auto;
+    padding: 0.5em; 
+
+}
+
+h2 { 
+    font-family: 'Libre Baskerville', serif;
+
+}
+
+
+
+/*popup*/ 
+
+.popup1, .popup2 ,.popup3 , .popup4,  .popup  {
+    display: none; 
+    font-size: 1em; 
+}
+
+
+
+.click, .help { 
+    cursor: pointer; 
+}
+
+
+
+
+.infobox img{ 
+    max-width: 60px; 
+}
+
+.number  { 
+    font-size: 1.7em; 
+    
+}
+
+
+
+/*icons*/ 
+
+.help-icon img { 
+    width: 50px; 
+    position: absolute; 
+    top: 75%; 
+}
+
+.popup img { 
+    width: 180px; 
+    position: absolute; 
+    top:55%;
+    
+}
+.buttons img { 
+    width: 50px; 
+    padding: 0.5em; 
+}
+
+.prev-icon { 
+    position: absolute; 
+    left: -1.5%; 
+    top: 80%; 
+}
+
+.next-icon { 
+    position: absolute; 
+    top: 80%; 
+    right: 0%; 
+}
